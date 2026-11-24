@@ -1,0 +1,3408 @@
+[
+  {
+    "id": "e01",
+    "unit": "Cimientos",
+    "title": "I am · You are · She is",
+    "short": "TO BE en afirmativa",
+    "goal": "Presentarte, identificar personas y decir cómo estás.",
+    "formula": [
+      [
+        "+",
+        "I am happy."
+      ],
+      [
+        "+",
+        "She is a student."
+      ],
+      [
+        "+",
+        "They are here."
+      ]
+    ],
+    "rule": "TO BE significa «ser» o «estar» según el contexto. Cambia con la persona: I am; you/we/they are; he/she/it is. No necesitas DO.",
+    "trap": "Incorrecto: I is happy. Correcto: I am happy.",
+    "words": [
+      [
+        "name",
+        "nombre"
+      ],
+      [
+        "student",
+        "estudiante"
+      ],
+      [
+        "friend",
+        "amigo/a"
+      ],
+      [
+        "happy",
+        "contento/a"
+      ],
+      [
+        "tired",
+        "cansado/a"
+      ],
+      [
+        "here",
+        "aquí"
+      ]
+    ],
+    "examples": {
+      "kids": "I am happy. My friend is here.",
+      "teens": "I am a student. We are ready.",
+      "adults": "I am at work. My colleague is here."
+    },
+    "audio": "Hello! I am Alex. I am happy. We are here.",
+    "resource": "be",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Elige: «I ___ ready».",
+        "answer": "am",
+        "options": [
+          "am",
+          "is",
+          "are"
+        ],
+        "id": "e01-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Elige: «They ___ here».",
+        "answer": "are",
+        "options": [
+          "are",
+          "is",
+          "am"
+        ],
+        "id": "e01-q2"
+      },
+      {
+        "type": "choice",
+        "prompt": "Elige: «He ___ tired».",
+        "answer": "is",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "id": "e01-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Completa: «We ___ friends».",
+        "answer": "are",
+        "alternatives": [],
+        "id": "e01-q4"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella está aquí».",
+        "answer": "She is here.",
+        "alternatives": [],
+        "id": "e01-q5"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: are | You | ready",
+        "answer": "You are ready.",
+        "id": "e01-q6"
+      },
+      {
+        "type": "choice",
+        "prompt": "¿Cuál es correcta?",
+        "answer": "I am a student.",
+        "options": [
+          "I am a student.",
+          "I is a student.",
+          "I are a student."
+        ],
+        "id": "e01-q7"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Yo estoy cansado».",
+        "answer": "I am tired.",
+        "alternatives": [],
+        "id": "e01-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Entras en clase. Di en inglés: «Soy estudiante».",
+        "answer": "I am a student.",
+        "transfer": true,
+        "id": "e01-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Mi amigo está contento».",
+          "answer": "My friend is happy.",
+          "alternatives": [],
+          "id": "e01-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estamos preparados».",
+          "answer": "We are ready.",
+          "alternatives": [],
+          "id": "e01-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estoy en el trabajo».",
+          "answer": "I am at work.",
+          "alternatives": [],
+          "id": "e01-adults-0"
+        }
+      ]
+    },
+    "index": 1,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple-be",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e02",
+    "unit": "Cimientos",
+    "title": "TO BE: no y preguntas",
+    "short": "Am I? · Is she? · Are they?",
+    "goal": "Negar y hacer preguntas sin añadir DO.",
+    "formula": [
+      [
+        "+",
+        "She is ready."
+      ],
+      [
+        "−",
+        "She is not ready."
+      ],
+      [
+        "?",
+        "Is she ready?"
+      ]
+    ],
+    "rule": "Con TO BE, para negar pon not después del verbo. Para preguntar, mueve am/is/are delante del sujeto. Contracciones comunes: is not = isn’t; are not = aren’t.",
+    "trap": "Incorrecto: Does she is ready? Correcto: Is she ready?",
+    "words": [
+      [
+        "not",
+        "no (negación)"
+      ],
+      [
+        "ready",
+        "preparado/a"
+      ],
+      [
+        "late",
+        "tarde"
+      ],
+      [
+        "home",
+        "casa"
+      ],
+      [
+        "busy",
+        "ocupado/a"
+      ],
+      [
+        "okay",
+        "bien"
+      ]
+    ],
+    "examples": {
+      "kids": "Are you happy? Yes, I am.",
+      "teens": "Is the exam today? No, it is not.",
+      "adults": "Are you busy? No, I am not."
+    },
+    "audio": "Are you ready? Yes, I am. I am not late.",
+    "resource": "be",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pregunta correcta:",
+        "answer": "Are you ready?",
+        "options": [
+          "Are you ready?",
+          "Do you are ready?",
+          "You are ready?"
+        ],
+        "id": "e02-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Negativa correcta:",
+        "answer": "She is not late.",
+        "options": [
+          "She is not late.",
+          "She not is late.",
+          "She does not late."
+        ],
+        "id": "e02-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Convierte en pregunta: «He is here.»",
+        "answer": "Is he here?",
+        "alternatives": [],
+        "id": "e02-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Convierte en negativa: «They are busy.»",
+        "answer": "They are not busy.",
+        "alternatives": [
+          "They aren’t busy."
+        ],
+        "id": "e02-q4"
+      },
+      {
+        "type": "choice",
+        "prompt": "¿Cómo se responde «Sí» a «Are you okay?»?",
+        "answer": "Yes, I am.",
+        "options": [
+          "Yes, I am.",
+          "Yes, I do.",
+          "Yes, I is."
+        ],
+        "id": "e02-q5"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: not | am | I | late",
+        "answer": "I am not late.",
+        "id": "e02-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Estás en casa?».",
+        "answer": "Are you at home?",
+        "alternatives": [],
+        "id": "e02-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "¿Qué palabra se adelanta al preguntar?",
+        "answer": "El verbo am/is/are",
+        "options": [
+          "El verbo am/is/are",
+          "El auxiliar do siempre",
+          "El adjetivo"
+        ],
+        "id": "e02-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Tu amigo pregunta «Is the teacher here?». Contesta: «No, no está».",
+        "answer": "No, he is not.",
+        "transfer": true,
+        "id": "e02-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Está mi amigo aquí?».",
+          "answer": "Is my friend here?",
+          "alternatives": [],
+          "id": "e02-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «No estamos preparados».",
+          "answer": "We are not ready.",
+          "alternatives": [],
+          "id": "e02-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Está ocupado el equipo?».",
+          "answer": "Is the team busy?",
+          "alternatives": [],
+          "id": "e02-adults-0"
+        }
+      ]
+    },
+    "index": 2,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple-be",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e03",
+    "unit": "Cimientos",
+    "title": "CAN · capacidades y ayuda",
+    "short": "Can / can’t / Can you…?",
+    "goal": "Decir qué puedes hacer y solicitar ayuda.",
+    "formula": [
+      [
+        "+",
+        "I can swim."
+      ],
+      [
+        "−",
+        "I cannot swim."
+      ],
+      [
+        "?",
+        "Can you swim?"
+      ]
+    ],
+    "rule": "CAN es igual con todas las personas. Después de can va el verbo en forma base: can speak, nunca can speaks ni can to speak. La negación es cannot (can’t); para preguntar adelantamos can.",
+    "trap": "Incorrecto: She can speaks English. Correcto: She can speak English.",
+    "words": [
+      [
+        "speak",
+        "hablar"
+      ],
+      [
+        "help",
+        "ayudar"
+      ],
+      [
+        "read",
+        "leer"
+      ],
+      [
+        "write",
+        "escribir"
+      ],
+      [
+        "understand",
+        "entender"
+      ],
+      [
+        "repeat",
+        "repetir"
+      ]
+    ],
+    "examples": {
+      "kids": "I can read. Can you help me?",
+      "teens": "I can understand this exercise.",
+      "adults": "Can you repeat that, please?"
+    },
+    "audio": "Can you help me, please? Yes, I can. I can repeat it.",
+    "resource": "can",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Correcta:",
+        "answer": "She can speak English.",
+        "options": [
+          "She can speak English.",
+          "She can speaks English.",
+          "She cans speak English."
+        ],
+        "id": "e03-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "«No puedo» se expresa:",
+        "answer": "I cannot.",
+        "options": [
+          "I cannot.",
+          "I do not can.",
+          "I am not can."
+        ],
+        "id": "e03-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Puedes ayudarme?».",
+        "answer": "Can you help me?",
+        "alternatives": [],
+        "id": "e03-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Puedo leer».",
+        "answer": "I can read.",
+        "alternatives": [],
+        "id": "e03-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: can | We | speak | English",
+        "answer": "We can speak English.",
+        "id": "e03-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta correcta:",
+        "answer": "Can he swim?",
+        "options": [
+          "Can he swim?",
+          "Does he can swim?",
+          "He cans swim?"
+        ],
+        "id": "e03-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella no puede escribir».",
+        "answer": "She cannot write.",
+        "alternatives": [
+          "She can’t write."
+        ],
+        "id": "e03-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Después de CAN va:",
+        "answer": "verbo base, sin to",
+        "options": [
+          "verbo base, sin to",
+          "verbo con -s",
+          "verbo con -ed"
+        ],
+        "id": "e03-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "En una situación real, pide: «¿Puedes repetir eso, por favor?».",
+        "answer": "Can you repeat that, please?",
+        "transfer": true,
+        "id": "e03-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Puedo jugar».",
+          "answer": "I can play.",
+          "alternatives": [],
+          "id": "e03-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Puedo estudiar hoy».",
+          "answer": "I can study today.",
+          "alternatives": [],
+          "id": "e03-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Puedo trabajar mañana».",
+          "answer": "I can work tomorrow.",
+          "alternatives": [],
+          "id": "e03-adults-0"
+        }
+      ]
+    },
+    "index": 3,
+    "resourceUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-practice/modals-can-cant",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-practice/modals-can-cant",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e04",
+    "unit": "Cimientos",
+    "title": "HAVE y HAS · lo que tienes",
+    "short": "Have / has con DO",
+    "goal": "Expresar posesión sin confundir HAVE con TO BE.",
+    "formula": [
+      [
+        "+",
+        "I have a ticket."
+      ],
+      [
+        "−",
+        "I do not have a ticket."
+      ],
+      [
+        "?",
+        "Do you have a ticket?"
+      ]
+    ],
+    "rule": "En presente simple, have cambia a has con he/she/it en afirmativa. Para negar o preguntar, usamos do/does + have: «Does she have…?». Aquí trabajamos la forma con DO, muy útil en el inglés actual.",
+    "trap": "Incorrecto: Does she has a phone? Correcto: Does she have a phone?",
+    "words": [
+      [
+        "ticket",
+        "billete/entrada"
+      ],
+      [
+        "phone",
+        "teléfono"
+      ],
+      [
+        "time",
+        "tiempo"
+      ],
+      [
+        "key",
+        "llave"
+      ],
+      [
+        "book",
+        "libro"
+      ],
+      [
+        "question",
+        "pregunta"
+      ]
+    ],
+    "examples": {
+      "kids": "I have a book. Do you have a pencil?",
+      "teens": "She has a phone. Does she have time?",
+      "adults": "I have a meeting. Do you have the key?"
+    },
+    "audio": "Do you have a ticket? Yes, I do. I have my ticket.",
+    "resource": "simple",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Él tiene una llave:",
+        "answer": "He has a key.",
+        "options": [
+          "He has a key.",
+          "He have a key.",
+          "He is have a key."
+        ],
+        "id": "e04-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta correcta:",
+        "answer": "Do you have a ticket?",
+        "options": [
+          "Do you have a ticket?",
+          "Have you a ticket?",
+          "Are you have a ticket?"
+        ],
+        "id": "e04-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella tiene un teléfono».",
+        "answer": "She has a phone.",
+        "alternatives": [],
+        "id": "e04-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Tienes tiempo?».",
+        "answer": "Do you have time?",
+        "alternatives": [],
+        "id": "e04-q4"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con DOES decimos:",
+        "answer": "Does she have…?",
+        "options": [
+          "Does she have…?",
+          "Does she has…?",
+          "Does she having…?"
+        ],
+        "id": "e04-q5"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: have | I | a | question",
+        "answer": "I have a question.",
+        "id": "e04-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Él no tiene llave».",
+        "answer": "He does not have a key.",
+        "alternatives": [
+          "He doesn’t have a key."
+        ],
+        "id": "e04-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Completa: «We ___ a book».",
+        "answer": "have",
+        "options": [
+          "have",
+          "has",
+          "are have"
+        ],
+        "id": "e04-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "En la estación, pregunta: «¿Tienes un billete?».",
+        "answer": "Do you have a ticket?",
+        "transfer": true,
+        "id": "e04-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Tengo un libro».",
+          "answer": "I have a book.",
+          "alternatives": [],
+          "id": "e04-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ella tiene un examen».",
+          "answer": "She has an exam.",
+          "alternatives": [],
+          "id": "e04-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Tengo una reunión».",
+          "answer": "I have a meeting.",
+          "alternatives": [],
+          "id": "e04-adults-0"
+        }
+      ]
+    },
+    "index": 4,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e05",
+    "unit": "Presente útil",
+    "title": "Verbos de acción: I / you / we / they",
+    "short": "Present simple afirmativo",
+    "goal": "Hablar de hábitos y rutinas con verbos útiles.",
+    "formula": [
+      [
+        "+",
+        "I work every day."
+      ],
+      [
+        "+",
+        "They study English."
+      ],
+      [
+        "+",
+        "We live in Madrid."
+      ]
+    ],
+    "rule": "Para rutinas y hechos habituales, usamos el presente simple. Con I/you/we/they, el verbo aparece en forma base: I study, you work, they live. No añadimos am delante de un verbo principal.",
+    "trap": "Incorrecto: I am work. Correcto: I work. («I am working» se verá más adelante).",
+    "words": [
+      [
+        "work",
+        "trabajar"
+      ],
+      [
+        "study",
+        "estudiar"
+      ],
+      [
+        "live",
+        "vivir"
+      ],
+      [
+        "eat",
+        "comer"
+      ],
+      [
+        "go",
+        "ir"
+      ],
+      [
+        "need",
+        "necesitar"
+      ]
+    ],
+    "examples": {
+      "kids": "I play and I study every day.",
+      "teens": "We study English after school.",
+      "adults": "I work in Madrid and I study English."
+    },
+    "audio": "I live in Madrid. I work every day. I study English.",
+    "resource": "simple",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Frase correcta:",
+        "answer": "I study English.",
+        "options": [
+          "I study English.",
+          "I am study English.",
+          "I studies English."
+        ],
+        "id": "e05-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con THEY:",
+        "answer": "They live here.",
+        "options": [
+          "They live here.",
+          "They lives here.",
+          "They is live here."
+        ],
+        "id": "e05-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Trabajamos aquí».",
+        "answer": "We work here.",
+        "alternatives": [],
+        "id": "e05-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Necesito tiempo».",
+        "answer": "I need time.",
+        "alternatives": [],
+        "id": "e05-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: English | study | They",
+        "answer": "They study English.",
+        "id": "e05-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "El presente simple suele expresar:",
+        "answer": "rutinas y hechos habituales",
+        "options": [
+          "rutinas y hechos habituales",
+          "solo acciones en este instante",
+          "solo acontecimientos pasados"
+        ],
+        "id": "e05-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Vivo en Madrid».",
+        "answer": "I live in Madrid.",
+        "alternatives": [],
+        "id": "e05-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Completa: «You ___ English».",
+        "answer": "speak",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking"
+        ],
+        "id": "e05-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Preséntate con una rutina: «Estudio inglés todos los días».",
+        "answer": "I study English every day.",
+        "transfer": true,
+        "id": "e05-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Juego todos los días».",
+          "answer": "I play every day.",
+          "alternatives": [],
+          "id": "e05-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estudiamos después de clase».",
+          "answer": "We study after class.",
+          "alternatives": [],
+          "id": "e05-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Trabajo todos los días».",
+          "answer": "I work every day.",
+          "alternatives": [],
+          "id": "e05-adults-0"
+        }
+      ]
+    },
+    "index": 5,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e06",
+    "unit": "Presente útil",
+    "title": "He / She / It: la tercera persona",
+    "short": "Works · studies · goes",
+    "goal": "Describir rutinas de otra persona.",
+    "formula": [
+      [
+        "+",
+        "He works here."
+      ],
+      [
+        "+",
+        "She studies English."
+      ],
+      [
+        "+",
+        "It goes fast."
+      ]
+    ],
+    "rule": "Con he/she/it en presente simple afirmativo añadimos normalmente -s. Con -ch/-sh/-o/-ss suele aparecer -es (watches, goes); consonante + y cambia a -ies (studies). HAVE → HAS.",
+    "trap": "Incorrecto: She study English. Correcto: She studies English.",
+    "words": [
+      [
+        "teacher",
+        "profesor/a"
+      ],
+      [
+        "friend",
+        "amigo/a"
+      ],
+      [
+        "every day",
+        "todos los días"
+      ],
+      [
+        "usually",
+        "normalmente"
+      ],
+      [
+        "watch",
+        "ver"
+      ],
+      [
+        "finish",
+        "terminar"
+      ]
+    ],
+    "examples": {
+      "kids": "My friend plays football.",
+      "teens": "She studies before the exam.",
+      "adults": "He finishes work at six."
+    },
+    "audio": "She works every day. He studies English. My friend goes home.",
+    "resource": "simple",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Completa: «She ___ English».",
+        "answer": "studies",
+        "options": [
+          "studies",
+          "study",
+          "studys"
+        ],
+        "id": "e06-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Completa: «He ___ TV».",
+        "answer": "watches",
+        "options": [
+          "watches",
+          "watch",
+          "watchs"
+        ],
+        "id": "e06-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella trabaja aquí».",
+        "answer": "She works here.",
+        "alternatives": [],
+        "id": "e06-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Él va a casa».",
+        "answer": "He goes home.",
+        "alternatives": [],
+        "id": "e06-q4"
+      },
+      {
+        "type": "choice",
+        "prompt": "HAVE con HE es:",
+        "answer": "has",
+        "options": [
+          "has",
+          "haves",
+          "have"
+        ],
+        "id": "e06-q5"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: plays | He | football",
+        "answer": "He plays football.",
+        "id": "e06-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Completa: «She ___ work at six» (finish).",
+        "answer": "finishes",
+        "alternatives": [],
+        "id": "e06-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Correcta:",
+        "answer": "My sister studies English.",
+        "options": [
+          "My sister studies English.",
+          "My sister study English.",
+          "My sister studying English."
+        ],
+        "id": "e06-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Habla de otra persona: «Mi amigo trabaja todos los días».",
+        "answer": "My friend works every day.",
+        "transfer": true,
+        "id": "e06-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Mi hermana juega».",
+          "answer": "My sister plays.",
+          "alternatives": [],
+          "id": "e06-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Él estudia por la tarde».",
+          "answer": "He studies in the afternoon.",
+          "alternatives": [],
+          "id": "e06-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ella trabaja aquí».",
+          "answer": "She works here.",
+          "alternatives": [],
+          "id": "e06-adults-0"
+        }
+      ]
+    },
+    "index": 6,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e07",
+    "unit": "Presente útil",
+    "title": "DON’T y DOESN’T · negar rutinas",
+    "short": "No + auxiliar DO",
+    "goal": "Decir lo que no haces o no sucede habitualmente.",
+    "formula": [
+      [
+        "+",
+        "He works here."
+      ],
+      [
+        "−",
+        "He does not work here."
+      ],
+      [
+        "−",
+        "They do not work here."
+      ]
+    ],
+    "rule": "Con verbos de acción en presente simple usamos don’t (I/you/we/they) o doesn’t (he/she/it). Después de doesn’t, el verbo vuelve a la forma base: «He doesn’t work», nunca «doesn’t works».",
+    "trap": "Incorrecto: She doesn’t likes coffee. Correcto: She doesn’t like coffee.",
+    "words": [
+      [
+        "like",
+        "gustar"
+      ],
+      [
+        "drink",
+        "beber"
+      ],
+      [
+        "coffee",
+        "café"
+      ],
+      [
+        "meat",
+        "carne"
+      ],
+      [
+        "today",
+        "hoy"
+      ],
+      [
+        "often",
+        "a menudo"
+      ]
+    ],
+    "examples": {
+      "kids": "I don’t eat fish.",
+      "teens": "She doesn’t study on Sundays.",
+      "adults": "He doesn’t work on Saturdays."
+    },
+    "audio": "I do not drink coffee. She does not work on Sundays.",
+    "resource": "simple",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Negativa correcta:",
+        "answer": "She doesn’t like coffee.",
+        "options": [
+          "She doesn’t like coffee.",
+          "She doesn’t likes coffee.",
+          "She not like coffee."
+        ],
+        "id": "e07-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con I usamos:",
+        "answer": "don’t",
+        "options": [
+          "don’t",
+          "doesn’t",
+          "isn’t"
+        ],
+        "id": "e07-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Niega: «He works here.»",
+        "answer": "He does not work here.",
+        "alternatives": [
+          "He doesn’t work here."
+        ],
+        "id": "e07-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Niega: «They live here.»",
+        "answer": "They do not live here.",
+        "alternatives": [
+          "They don’t live here."
+        ],
+        "id": "e07-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: not | do | I | eat | meat",
+        "answer": "I do not eat meat.",
+        "id": "e07-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con DOESN’T el verbo va:",
+        "answer": "en forma base",
+        "options": [
+          "en forma base",
+          "con -s",
+          "con -ing"
+        ],
+        "id": "e07-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «No me gusta el café».",
+        "answer": "I do not like coffee.",
+        "alternatives": [
+          "I don’t like coffee."
+        ],
+        "id": "e07-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con SHE usamos:",
+        "answer": "doesn’t",
+        "options": [
+          "doesn’t",
+          "don’t",
+          "aren’t"
+        ],
+        "id": "e07-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Di tu hábito real o hipotético: «No trabajo los domingos».",
+        "answer": "I do not work on Sundays.",
+        "transfer": true,
+        "id": "e07-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «No juego hoy».",
+          "answer": "I do not play today.",
+          "alternatives": [
+            "I don’t play today."
+          ],
+          "id": "e07-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ella no estudia los domingos».",
+          "answer": "She does not study on Sundays.",
+          "alternatives": [
+            "She doesn’t study on Sundays."
+          ],
+          "id": "e07-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «No trabajo los sábados».",
+          "answer": "I do not work on Saturdays.",
+          "alternatives": [
+            "I don’t work on Saturdays."
+          ],
+          "id": "e07-adults-0"
+        }
+      ]
+    },
+    "index": 7,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/present-simple",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e08",
+    "unit": "Presente útil",
+    "title": "DO / DOES · hacer preguntas",
+    "short": "Do you…? Does he…?",
+    "goal": "Preguntar por hábitos y responder brevemente.",
+    "formula": [
+      [
+        "+",
+        "She speaks English."
+      ],
+      [
+        "?",
+        "Does she speak English?"
+      ],
+      [
+        "?",
+        "Do you work here?"
+      ]
+    ],
+    "rule": "Para preguntar por hábitos con verbos de acción: Do + I/you/we/they + verbo base…? o Does + he/she/it + verbo base…? Respuestas cortas: Yes, I do / No, she doesn’t.",
+    "trap": "Incorrecto: Does she speaks English? Correcto: Does she speak English?",
+    "words": [
+      [
+        "where",
+        "dónde"
+      ],
+      [
+        "when",
+        "cuándo"
+      ],
+      [
+        "speak",
+        "hablar"
+      ],
+      [
+        "need",
+        "necesitar"
+      ],
+      [
+        "drive",
+        "conducir"
+      ],
+      [
+        "cook",
+        "cocinar"
+      ]
+    ],
+    "examples": {
+      "kids": "Do you like apples? Yes, I do.",
+      "teens": "Does she study English? Yes, she does.",
+      "adults": "Do you work here? No, I don’t."
+    },
+    "audio": "Do you speak English? Yes, I do. Does she drive? No, she does not.",
+    "resource": "questions",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pregunta correcta:",
+        "answer": "Does he work here?",
+        "options": [
+          "Does he work here?",
+          "Does he works here?",
+          "Do he work here?"
+        ],
+        "id": "e08-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta con YOU:",
+        "answer": "Do you speak English?",
+        "options": [
+          "Do you speak English?",
+          "Does you speak English?",
+          "Are you speak English?"
+        ],
+        "id": "e08-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Pregunta: «She lives here.»",
+        "answer": "Does she live here?",
+        "alternatives": [],
+        "id": "e08-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Pregunta: «They work here.»",
+        "answer": "Do they work here?",
+        "alternatives": [],
+        "id": "e08-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: you | Do | like | tea",
+        "answer": "Do you like tea?",
+        "id": "e08-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Respuesta a «Does she cook?»:",
+        "answer": "Yes, she does.",
+        "options": [
+          "Yes, she does.",
+          "Yes, she do.",
+          "Yes, she is."
+        ],
+        "id": "e08-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Necesitas ayuda?».",
+        "answer": "Do you need help?",
+        "alternatives": [],
+        "id": "e08-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Después de DOES:",
+        "answer": "forma base",
+        "options": [
+          "forma base",
+          "tercera persona con -s",
+          "verbo con -ing"
+        ],
+        "id": "e08-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Pregunta en una tienda: «¿Venden billetes aquí?».",
+        "answer": "Do you sell tickets here?",
+        "transfer": true,
+        "id": "e08-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Juegas hoy?».",
+          "answer": "Do you play today?",
+          "alternatives": [],
+          "id": "e08-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Ella estudia aquí?».",
+          "answer": "Does she study here?",
+          "alternatives": [],
+          "id": "e08-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Trabaja él aquí?».",
+          "answer": "Does he work here?",
+          "alternatives": [],
+          "id": "e08-adults-0"
+        }
+      ]
+    },
+    "index": 8,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e09",
+    "unit": "Presente útil",
+    "title": "WHAT · WHERE · WHEN · WHY",
+    "short": "Preguntas con información",
+    "goal": "Preguntar qué, dónde, cuándo y por qué.",
+    "formula": [
+      [
+        "?",
+        "Where do you live?"
+      ],
+      [
+        "?",
+        "What does she need?"
+      ],
+      [
+        "?",
+        "When do they work?"
+      ]
+    ],
+    "rule": "Muchas preguntas siguen el orden: WH-word + do/does + sujeto + verbo base. Con BE la estructura es diferente: «Where are you?». Con CAN: «What can you do?».",
+    "trap": "Incorrecto: Where do you are? Correcto: Where are you?",
+    "words": [
+      [
+        "what",
+        "qué"
+      ],
+      [
+        "where",
+        "dónde"
+      ],
+      [
+        "when",
+        "cuándo"
+      ],
+      [
+        "why",
+        "por qué"
+      ],
+      [
+        "who",
+        "quién"
+      ],
+      [
+        "how",
+        "cómo"
+      ]
+    ],
+    "examples": {
+      "kids": "Where is my book?",
+      "teens": "When do you study?",
+      "adults": "Where do you work?"
+    },
+    "audio": "Where do you live? What do you need? When do you study?",
+    "resource": "questions",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "¿Dónde vives?",
+        "answer": "Where do you live?",
+        "options": [
+          "Where do you live?",
+          "Where are you live?",
+          "Where does you live?"
+        ],
+        "id": "e09-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "¿Dónde estás?",
+        "answer": "Where are you?",
+        "options": [
+          "Where are you?",
+          "Where do you are?",
+          "Where you do?"
+        ],
+        "id": "e09-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Qué necesita ella?».",
+        "answer": "What does she need?",
+        "alternatives": [],
+        "id": "e09-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Qué puedes hacer?».",
+        "answer": "What can you do?",
+        "alternatives": [],
+        "id": "e09-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: do | Where | you | work",
+        "answer": "Where do you work?",
+        "id": "e09-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "«When» significa:",
+        "answer": "cuándo",
+        "options": [
+          "cuándo",
+          "dónde",
+          "por qué"
+        ],
+        "id": "e09-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Cuándo estudian?».",
+        "answer": "When do they study?",
+        "alternatives": [],
+        "id": "e09-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Para preguntar la razón usamos:",
+        "answer": "why",
+        "options": [
+          "why",
+          "where",
+          "who"
+        ],
+        "id": "e09-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Pregunta a alguien: «¿Cómo estás?».",
+        "answer": "How are you?",
+        "transfer": true,
+        "id": "e09-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Pregunta: «¿Dónde está mi libro?».",
+          "answer": "Where is my book?",
+          "alternatives": [],
+          "id": "e09-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Pregunta: «¿Cuándo es el examen?».",
+          "answer": "When is the exam?",
+          "alternatives": [],
+          "id": "e09-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Pregunta: «¿Dónde está la reunión?».",
+          "answer": "Where is the meeting?",
+          "alternatives": [],
+          "id": "e09-adults-0"
+        }
+      ]
+    },
+    "index": 9,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e10",
+    "unit": "Construir frases",
+    "title": "Siempre, a veces, nunca",
+    "short": "Adverbios de frecuencia",
+    "goal": "Hacer precisas las frases sobre hábitos.",
+    "formula": [
+      [
+        "+",
+        "I usually work here."
+      ],
+      [
+        "+",
+        "She never drinks tea."
+      ],
+      [
+        "+",
+        "He is always late."
+      ]
+    ],
+    "rule": "Always, usually, often, sometimes, never suelen ir antes del verbo principal («I often study»), pero después de TO BE («She is often tired»). «Never» ya tiene sentido negativo: no se suele combinar con don’t.",
+    "trap": "Incorrecto: She always is late (en uso neutro). Preferible: She is always late.",
+    "words": [
+      [
+        "always",
+        "siempre"
+      ],
+      [
+        "usually",
+        "normalmente"
+      ],
+      [
+        "often",
+        "a menudo"
+      ],
+      [
+        "sometimes",
+        "a veces"
+      ],
+      [
+        "never",
+        "nunca"
+      ],
+      [
+        "every day",
+        "cada día"
+      ]
+    ],
+    "examples": {
+      "kids": "I usually play after school.",
+      "teens": "I often study at night.",
+      "adults": "I sometimes work from home."
+    },
+    "audio": "I always study English. She is sometimes busy. We never arrive late.",
+    "resource": "freq",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Orden natural:",
+        "answer": "I usually study.",
+        "options": [
+          "I usually study.",
+          "I study usually.",
+          "I am usually study."
+        ],
+        "id": "e10-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con TO BE:",
+        "answer": "She is always ready.",
+        "options": [
+          "She is always ready.",
+          "She always is ready.",
+          "She always ready."
+        ],
+        "id": "e10-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «A veces trabajo aquí».",
+        "answer": "I sometimes work here.",
+        "alternatives": [],
+        "id": "e10-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Él nunca llega tarde».",
+        "answer": "He never arrives late.",
+        "alternatives": [],
+        "id": "e10-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: often | We | cook",
+        "answer": "We often cook.",
+        "id": "e10-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "«Never» significa:",
+        "answer": "nunca",
+        "options": [
+          "nunca",
+          "siempre",
+          "a menudo"
+        ],
+        "id": "e10-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella suele estudiar».",
+        "answer": "She usually studies.",
+        "alternatives": [],
+        "id": "e10-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con BE, el adverbio suele ir:",
+        "answer": "después de BE",
+        "options": [
+          "después de BE",
+          "antes de BE",
+          "al final siempre"
+        ],
+        "id": "e10-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Describe una rutina: «Siempre bebo agua».",
+        "answer": "I always drink water.",
+        "transfer": true,
+        "id": "e10-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «A veces juego».",
+          "answer": "I sometimes play.",
+          "alternatives": [],
+          "id": "e10-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Siempre estudio inglés».",
+          "answer": "I always study English.",
+          "alternatives": [],
+          "id": "e10-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Normalmente trabajo aquí».",
+          "answer": "I usually work here.",
+          "alternatives": [],
+          "id": "e10-adults-0"
+        }
+      ]
+    },
+    "index": 10,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/how-often",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e11",
+    "unit": "Construir frases",
+    "title": "-ING · lo que ocurre ahora",
+    "short": "Present continuous",
+    "goal": "Contar qué estás haciendo en este momento.",
+    "formula": [
+      [
+        "+",
+        "I am studying."
+      ],
+      [
+        "−",
+        "She is not working."
+      ],
+      [
+        "?",
+        "Are they coming?"
+      ]
+    ],
+    "rule": "Acciones que están ocurriendo ahora: sujeto + am/is/are + verbo-ing. Para negar y preguntar movemos o negamos BE, no usamos DO. Es «I am working», no «I working».",
+    "trap": "Incorrecto: She is study. Correcto: She is studying.",
+    "words": [
+      [
+        "now",
+        "ahora"
+      ],
+      [
+        "right now",
+        "justo ahora"
+      ],
+      [
+        "listen",
+        "escuchar"
+      ],
+      [
+        "wait",
+        "esperar"
+      ],
+      [
+        "work",
+        "trabajar"
+      ],
+      [
+        "come",
+        "venir"
+      ]
+    ],
+    "examples": {
+      "kids": "I am playing now.",
+      "teens": "She is studying right now.",
+      "adults": "I am waiting for the bus."
+    },
+    "audio": "I am learning English right now. Are you listening? Yes, I am.",
+    "resource": "continuous",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Acción en progreso:",
+        "answer": "I am studying.",
+        "options": [
+          "I am studying.",
+          "I study now currently.",
+          "I am study."
+        ],
+        "id": "e11-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta correcta:",
+        "answer": "Are you working?",
+        "options": [
+          "Are you working?",
+          "Do you working?",
+          "Are you work?"
+        ],
+        "id": "e11-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Estoy esperando».",
+        "answer": "I am waiting.",
+        "alternatives": [],
+        "id": "e11-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Niega: «She is reading.»",
+        "answer": "She is not reading.",
+        "alternatives": [
+          "She isn’t reading."
+        ],
+        "id": "e11-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: English | learning | am | I",
+        "answer": "I am learning English.",
+        "id": "e11-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con «now» para una acción en curso suele usarse:",
+        "answer": "am/is/are + -ing",
+        "options": [
+          "am/is/are + -ing",
+          "did + verbo",
+          "will + verbo"
+        ],
+        "id": "e11-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Están escuchando?».",
+        "answer": "Are they listening?",
+        "alternatives": [],
+        "id": "e11-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Frase correcta:",
+        "answer": "He is coming.",
+        "options": [
+          "He is coming.",
+          "He is come.",
+          "He coming."
+        ],
+        "id": "e11-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Estás en una estación. Di: «Estoy esperando el autobús».",
+        "answer": "I am waiting for the bus.",
+        "transfer": true,
+        "id": "e11-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estoy jugando ahora».",
+          "answer": "I am playing now.",
+          "alternatives": [],
+          "id": "e11-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ella está estudiando».",
+          "answer": "She is studying.",
+          "alternatives": [],
+          "id": "e11-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estoy trabajando ahora».",
+          "answer": "I am working now.",
+          "alternatives": [],
+          "id": "e11-adults-0"
+        }
+      ]
+    },
+    "index": 11,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e12",
+    "unit": "Construir frases",
+    "title": "Rutina o ahora: elegir bien",
+    "short": "Simple vs continuous",
+    "goal": "Distinguir lo habitual de lo que ocurre en este instante.",
+    "formula": [
+      [
+        "Hábito",
+        "I work every day."
+      ],
+      [
+        "Ahora",
+        "I am working now."
+      ],
+      [
+        "Contraste",
+        "She usually drives, but today she is walking."
+      ]
+    ],
+    "rule": "Present simple: hábitos, hechos generales («I study on Mondays»). Present continuous: acción en curso o situación temporal («I am studying now»). Marcadores como every day o right now dan pistas, pero el significado manda.",
+    "trap": "Incorrecto: She is work every day. Correcto: She works every day.",
+    "words": [
+      [
+        "today",
+        "hoy"
+      ],
+      [
+        "every morning",
+        "cada mañana"
+      ],
+      [
+        "at the moment",
+        "en este momento"
+      ],
+      [
+        "usually",
+        "normalmente"
+      ],
+      [
+        "this week",
+        "esta semana"
+      ],
+      [
+        "now",
+        "ahora"
+      ]
+    ],
+    "examples": {
+      "kids": "I play every day. I am reading now.",
+      "teens": "She studies every day. She is resting now.",
+      "adults": "I usually drive. Today I am walking."
+    },
+    "audio": "I work every day, but I am resting now.",
+    "resource": "continuous",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "«Every day»:",
+        "answer": "She studies every day.",
+        "options": [
+          "She studies every day.",
+          "She is study every day.",
+          "She study every day."
+        ],
+        "id": "e12-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "«Right now»:",
+        "answer": "He is cooking right now.",
+        "options": [
+          "He is cooking right now.",
+          "He cooks right now in this moment.",
+          "He cooking right now."
+        ],
+        "id": "e12-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Trabajo todos los días».",
+        "answer": "I work every day.",
+        "alternatives": [],
+        "id": "e12-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Estoy trabajando ahora».",
+        "answer": "I am working now.",
+        "alternatives": [],
+        "id": "e12-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: is | now | She | studying",
+        "answer": "She is studying now.",
+        "id": "e12-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Señala la rutina:",
+        "answer": "I go to school on Mondays.",
+        "options": [
+          "I go to school on Mondays.",
+          "I am going to school right now.",
+          "I am eating now."
+        ],
+        "id": "e12-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella normalmente conduce».",
+        "answer": "She usually drives.",
+        "alternatives": [],
+        "id": "e12-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Para acción en curso:",
+        "answer": "BE + verbo-ing",
+        "options": [
+          "BE + verbo-ing",
+          "DO + verbo-ing",
+          "DID + verbo-ing"
+        ],
+        "id": "e12-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Cuenta el contraste: «Normalmente estudio, pero ahora descanso».",
+        "answer": "I usually study, but I am resting now.",
+        "transfer": true,
+        "id": "e12-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Juego cada día, pero ahora leo».",
+          "answer": "I play every day, but I am reading now.",
+          "alternatives": [],
+          "id": "e12-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estudio hoy». (Estoy estudiando ahora)",
+          "answer": "I am studying today.",
+          "alternatives": [],
+          "id": "e12-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Trabajo aquí, pero hoy estoy en casa».",
+          "answer": "I work here, but today I am at home.",
+          "alternatives": [],
+          "id": "e12-adults-0"
+        }
+      ]
+    },
+    "index": 12,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-continuous",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e13",
+    "unit": "Construir frases",
+    "title": "Adjetivos · añadir detalles",
+    "short": "A good book · It is useful",
+    "goal": "Describir personas y cosas en una frase correcta.",
+    "formula": [
+      [
+        "Antes del nombre",
+        "a good book"
+      ],
+      [
+        "Tras BE",
+        "The book is good."
+      ],
+      [
+        "Con intensificador",
+        "It is very useful."
+      ]
+    ],
+    "rule": "El adjetivo describe a un sustantivo: «a useful map», «the map is useful». En inglés suele ir ANTES del sustantivo y no varía en plural: «two good books» (no goods). Tras BE también funciona.",
+    "trap": "Incorrecto: a book useful. Correcto: a useful book.",
+    "words": [
+      [
+        "good",
+        "bueno/a"
+      ],
+      [
+        "useful",
+        "útil"
+      ],
+      [
+        "easy",
+        "fácil"
+      ],
+      [
+        "difficult",
+        "difícil"
+      ],
+      [
+        "new",
+        "nuevo/a"
+      ],
+      [
+        "small",
+        "pequeño/a"
+      ]
+    ],
+    "examples": {
+      "kids": "It is a small dog.",
+      "teens": "This is a difficult exam.",
+      "adults": "This is a useful document."
+    },
+    "audio": "This is a useful book. It is easy and very good.",
+    "resource": "adjectives",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Orden correcto:",
+        "answer": "a useful book",
+        "options": [
+          "a useful book",
+          "a book useful",
+          "an useful book"
+        ],
+        "id": "e13-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "En plural:",
+        "answer": "two good books",
+        "options": [
+          "two good books",
+          "two goods books",
+          "two books good"
+        ],
+        "id": "e13-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Es un libro nuevo».",
+        "answer": "It is a new book.",
+        "alternatives": [],
+        "id": "e13-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «El mapa es útil».",
+        "answer": "The map is useful.",
+        "alternatives": [],
+        "id": "e13-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: a | good | It | is | idea",
+        "answer": "It is a good idea.",
+        "id": "e13-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "«Difficult» es:",
+        "answer": "adjetivo",
+        "options": [
+          "adjetivo",
+          "auxiliar",
+          "pronombre"
+        ],
+        "id": "e13-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Es una pregunta fácil».",
+        "answer": "It is an easy question.",
+        "alternatives": [],
+        "id": "e13-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tras TO BE:",
+        "answer": "The exam is difficult.",
+        "options": [
+          "The exam is difficult.",
+          "The exam difficult is.",
+          "The exam is difficulty."
+        ],
+        "id": "e13-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Describe una herramienta: «Este es un mapa útil».",
+        "answer": "This is a useful map.",
+        "transfer": true,
+        "id": "e13-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Es un perro pequeño».",
+          "answer": "It is a small dog.",
+          "alternatives": [],
+          "id": "e13-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Es un examen difícil».",
+          "answer": "It is a difficult exam.",
+          "alternatives": [],
+          "id": "e13-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Es una reunión importante».",
+          "answer": "It is an important meeting.",
+          "alternatives": [],
+          "id": "e13-adults-0"
+        }
+      ]
+    },
+    "index": 13,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/adjectives",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e14",
+    "unit": "Construir frases",
+    "title": "Adverbios · cómo haces algo",
+    "short": "Slowly · carefully · well",
+    "goal": "Explicar cómo se realiza una acción.",
+    "formula": [
+      [
+        "Adjetivo",
+        "She is careful."
+      ],
+      [
+        "Adverbio",
+        "She drives carefully."
+      ],
+      [
+        "Irregular",
+        "He speaks English well."
+      ]
+    ],
+    "rule": "El adjetivo describe una persona o cosa; el adverbio de modo describe cómo ocurre la acción. Muchos acaban en -ly (careful → carefully), pero no todos: good → well; fast → fast. No confundas adverbios de modo con los de frecuencia.",
+    "trap": "Incorrecto: She drives careful. Correcto: She drives carefully.",
+    "words": [
+      [
+        "slowly",
+        "despacio"
+      ],
+      [
+        "quickly",
+        "rápidamente"
+      ],
+      [
+        "carefully",
+        "con cuidado"
+      ],
+      [
+        "well",
+        "bien"
+      ],
+      [
+        "badly",
+        "mal"
+      ],
+      [
+        "fast",
+        "rápido"
+      ]
+    ],
+    "examples": {
+      "kids": "He runs fast.",
+      "teens": "She reads carefully.",
+      "adults": "Please speak slowly."
+    },
+    "audio": "Please speak slowly. She listens carefully. He works well.",
+    "resource": "adverbs",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Habla bien inglés:",
+        "answer": "She speaks English well.",
+        "options": [
+          "She speaks English well.",
+          "She speaks English good.",
+          "She speaks good Englishly."
+        ],
+        "id": "e14-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Conducir con cuidado:",
+        "answer": "drive carefully",
+        "options": [
+          "drive carefully",
+          "drive careful",
+          "drive carefulness"
+        ],
+        "id": "e14-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Por favor, habla despacio».",
+        "answer": "Please speak slowly.",
+        "alternatives": [],
+        "id": "e14-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Él trabaja bien».",
+        "answer": "He works well.",
+        "alternatives": [],
+        "id": "e14-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: reads | carefully | She",
+        "answer": "She reads carefully.",
+        "id": "e14-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Good → adverbio:",
+        "answer": "well",
+        "options": [
+          "well",
+          "goodly",
+          "good"
+        ],
+        "id": "e14-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella camina rápidamente».",
+        "answer": "She walks quickly.",
+        "alternatives": [],
+        "id": "e14-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "«Fast» como adverbio:",
+        "answer": "He runs fast.",
+        "options": [
+          "He runs fast.",
+          "He runs fastly.",
+          "He is runs fast."
+        ],
+        "id": "e14-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Pide a alguien: «Por favor, conduce con cuidado».",
+        "answer": "Please drive carefully.",
+        "transfer": true,
+        "id": "e14-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Él corre rápido».",
+          "answer": "He runs fast.",
+          "alternatives": [],
+          "id": "e14-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ella lee con cuidado».",
+          "answer": "She reads carefully.",
+          "alternatives": [],
+          "id": "e14-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Trabajamos rápidamente».",
+          "answer": "We work quickly.",
+          "alternatives": [],
+          "id": "e14-adults-0"
+        }
+      ]
+    },
+    "index": 14,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/how-we-make-adverbials",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e15",
+    "unit": "Tiempo y futuro",
+    "title": "WILL · decisiones y predicciones",
+    "short": "Will / won’t / Will you…?",
+    "goal": "Hablar del futuro con WILL.",
+    "formula": [
+      [
+        "+",
+        "I will help you."
+      ],
+      [
+        "−",
+        "I will not be late."
+      ],
+      [
+        "?",
+        "Will you come tomorrow?"
+      ]
+    ],
+    "rule": "WILL no cambia con he/she/it. Después va un verbo base, incluso BE: «I will be ready». WON’T = WILL NOT. Muy útil para predicciones, promesas y decisiones tomadas en el momento; otros futuros se verán más adelante.",
+    "trap": "Incorrecto: She will goes. Correcto: She will go.",
+    "words": [
+      [
+        "tomorrow",
+        "mañana"
+      ],
+      [
+        "next week",
+        "la semana que viene"
+      ],
+      [
+        "soon",
+        "pronto"
+      ],
+      [
+        "later",
+        "más tarde"
+      ],
+      [
+        "help",
+        "ayudar"
+      ],
+      [
+        "call",
+        "llamar"
+      ]
+    ],
+    "examples": {
+      "kids": "I will play tomorrow.",
+      "teens": "I will study tonight.",
+      "adults": "I will call you later."
+    },
+    "audio": "I will help you tomorrow. Will you come? Yes, I will.",
+    "resource": "future",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Frase correcta:",
+        "answer": "She will work tomorrow.",
+        "options": [
+          "She will work tomorrow.",
+          "She will works tomorrow.",
+          "She wills work tomorrow."
+        ],
+        "id": "e15-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Negativa de WILL:",
+        "answer": "will not",
+        "options": [
+          "will not",
+          "do not will",
+          "is not will"
+        ],
+        "id": "e15-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Te ayudaré mañana».",
+        "answer": "I will help you tomorrow.",
+        "alternatives": [],
+        "id": "e15-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Vendrás mañana?».",
+        "answer": "Will you come tomorrow?",
+        "alternatives": [],
+        "id": "e15-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: be | will | I | ready",
+        "answer": "I will be ready.",
+        "id": "e15-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "WON’T significa:",
+        "answer": "will not",
+        "options": [
+          "will not",
+          "would not",
+          "was not"
+        ],
+        "id": "e15-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella no llegará tarde».",
+        "answer": "She will not be late.",
+        "alternatives": [
+          "She won’t be late."
+        ],
+        "id": "e15-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Después de WILL va:",
+        "answer": "verbo base",
+        "options": [
+          "verbo base",
+          "verbo con -s",
+          "verbo con -ing solo"
+        ],
+        "id": "e15-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Promete: «Te llamaré más tarde».",
+        "answer": "I will call you later.",
+        "transfer": true,
+        "id": "e15-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Jugaré mañana».",
+          "answer": "I will play tomorrow.",
+          "alternatives": [],
+          "id": "e15-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estudiaré esta noche».",
+          "answer": "I will study tonight.",
+          "alternatives": [],
+          "id": "e15-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Enviaré el correo mañana».",
+          "answer": "I will send the email tomorrow.",
+          "alternatives": [],
+          "id": "e15-adults-0"
+        }
+      ]
+    },
+    "index": 15,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/talking-about-future",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e16",
+    "unit": "Tiempo y futuro",
+    "title": "Pasado simple · verbos regulares",
+    "short": "Played · worked · studied",
+    "goal": "Contar qué hiciste ayer con verbos regulares.",
+    "formula": [
+      [
+        "+",
+        "I worked yesterday."
+      ],
+      [
+        "+",
+        "She played football."
+      ],
+      [
+        "+",
+        "We studied English."
+      ]
+    ],
+    "rule": "El pasado simple de muchos verbos termina en -ed: work → worked. Si el verbo acaba en consonante + y: study → studied. El verbo en pasado no cambia según la persona: I worked, she worked.",
+    "trap": "Incorrecto: She work yesterday. Correcto: She worked yesterday.",
+    "words": [
+      [
+        "yesterday",
+        "ayer"
+      ],
+      [
+        "last night",
+        "anoche"
+      ],
+      [
+        "last week",
+        "la semana pasada"
+      ],
+      [
+        "visit",
+        "visitar"
+      ],
+      [
+        "work",
+        "trabajar"
+      ],
+      [
+        "study",
+        "estudiar"
+      ]
+    ],
+    "examples": {
+      "kids": "I played yesterday.",
+      "teens": "I studied last night.",
+      "adults": "I worked last week."
+    },
+    "audio": "Yesterday I studied English, worked, and visited a friend.",
+    "resource": "past",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pasado de work:",
+        "answer": "worked",
+        "options": [
+          "worked",
+          "workt",
+          "works"
+        ],
+        "id": "e16-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pasado de study:",
+        "answer": "studied",
+        "options": [
+          "studied",
+          "studyed",
+          "studys"
+        ],
+        "id": "e16-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Trabajé ayer».",
+        "answer": "I worked yesterday.",
+        "alternatives": [],
+        "id": "e16-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella visitó a su amiga».",
+        "answer": "She visited her friend.",
+        "alternatives": [],
+        "id": "e16-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: yesterday | We | played",
+        "answer": "We played yesterday.",
+        "id": "e16-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "En pasado simple regular:",
+        "answer": "he/she/it no añade -s",
+        "options": [
+          "he/she/it no añade -s",
+          "he/she/it añade -s",
+          "siempre usamos am"
+        ],
+        "id": "e16-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Estudiamos anoche».",
+        "answer": "We studied last night.",
+        "alternatives": [],
+        "id": "e16-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Verbo de acción regular en pasado:",
+        "answer": "visited",
+        "options": [
+          "visited",
+          "went",
+          "ate"
+        ],
+        "id": "e16-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Cuenta lo que hiciste ayer: «Ayer estudié inglés».",
+        "answer": "Yesterday I studied English.",
+        "transfer": true,
+        "id": "e16-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ayer jugué».",
+          "answer": "I played yesterday.",
+          "alternatives": [],
+          "id": "e16-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Anoche estudié».",
+          "answer": "I studied last night.",
+          "alternatives": [],
+          "id": "e16-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Trabajé la semana pasada».",
+          "answer": "I worked last week.",
+          "alternatives": [],
+          "id": "e16-adults-0"
+        }
+      ]
+    },
+    "index": 16,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e17",
+    "unit": "Tiempo y futuro",
+    "title": "Pasado simple · irregulares útiles",
+    "short": "Went · had · saw · ate",
+    "goal": "Contar acciones frecuentes del pasado.",
+    "formula": [
+      [
+        "+",
+        "I went home."
+      ],
+      [
+        "+",
+        "She had lunch."
+      ],
+      [
+        "+",
+        "We saw a film."
+      ]
+    ],
+    "rule": "Algunos verbos tienen un pasado irregular, sin -ed: go → went; have → had; see → saw; eat → ate; do → did; get → got. En afirmativa usas el pasado y no añades DID antes.",
+    "trap": "Incorrecto: I goed home. Correcto: I went home.",
+    "words": [
+      [
+        "go / went",
+        "ir / fui"
+      ],
+      [
+        "have / had",
+        "tener / tuve"
+      ],
+      [
+        "see / saw",
+        "ver / vi"
+      ],
+      [
+        "eat / ate",
+        "comer / comí"
+      ],
+      [
+        "get / got",
+        "obtener/llegar"
+      ],
+      [
+        "do / did",
+        "hacer / hice"
+      ]
+    ],
+    "examples": {
+      "kids": "I ate pizza yesterday.",
+      "teens": "I went to school yesterday.",
+      "adults": "I had a meeting yesterday."
+    },
+    "audio": "I went home. I had dinner. I saw a film.",
+    "resource": "irregular",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pasado de go:",
+        "answer": "went",
+        "options": [
+          "went",
+          "goed",
+          "goes"
+        ],
+        "id": "e17-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pasado de eat:",
+        "answer": "ate",
+        "options": [
+          "ate",
+          "eated",
+          "eats"
+        ],
+        "id": "e17-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Fui a casa ayer».",
+        "answer": "I went home yesterday.",
+        "alternatives": [],
+        "id": "e17-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Ella tuvo una reunión».",
+        "answer": "She had a meeting.",
+        "alternatives": [],
+        "id": "e17-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: a | saw | film | We",
+        "answer": "We saw a film.",
+        "id": "e17-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pasado de have:",
+        "answer": "had",
+        "options": [
+          "had",
+          "haved",
+          "has"
+        ],
+        "id": "e17-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Vi un libro».",
+        "answer": "I saw a book.",
+        "alternatives": [],
+        "id": "e17-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pasado de do:",
+        "answer": "did",
+        "options": [
+          "did",
+          "doed",
+          "does"
+        ],
+        "id": "e17-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Cuenta: «Ayer comí en casa».",
+        "answer": "I ate at home yesterday.",
+        "transfer": true,
+        "id": "e17-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ayer comí pizza».",
+          "answer": "I ate pizza yesterday.",
+          "alternatives": [],
+          "id": "e17-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ayer fui al colegio».",
+          "answer": "I went to school yesterday.",
+          "alternatives": [],
+          "id": "e17-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Ayer tuve una reunión».",
+          "answer": "I had a meeting yesterday.",
+          "alternatives": [],
+          "id": "e17-adults-0"
+        }
+      ]
+    },
+    "index": 17,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/irregular-verbs",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e18",
+    "unit": "Tiempo y futuro",
+    "title": "DID / DIDN’T · preguntar en pasado",
+    "short": "Did you go? · I didn’t go",
+    "goal": "Negar y preguntar sobre el pasado.",
+    "formula": [
+      [
+        "+",
+        "She went home."
+      ],
+      [
+        "−",
+        "She did not go home."
+      ],
+      [
+        "?",
+        "Did she go home?"
+      ]
+    ],
+    "rule": "Con verbos de acción en pasado, usamos DID para preguntar y DIDN’T para negar. Tras DID/DIDN’T, el verbo principal vuelve a la forma base: «Did you go?», no «Did you went?». Con BE en pasado usamos was/were sin DID: «Were you tired?».",
+    "trap": "Incorrecto: Did you went? Correcto: Did you go?",
+    "words": [
+      [
+        "did",
+        "auxiliar de pasado"
+      ],
+      [
+        "didn’t",
+        "no (pasado)"
+      ],
+      [
+        "yesterday",
+        "ayer"
+      ],
+      [
+        "last weekend",
+        "el fin de semana pasado"
+      ],
+      [
+        "buy",
+        "comprar"
+      ],
+      [
+        "arrive",
+        "llegar"
+      ]
+    ],
+    "examples": {
+      "kids": "Did you play? Yes, I did.",
+      "teens": "Did you study? No, I didn’t.",
+      "adults": "Did you call me yesterday?"
+    },
+    "audio": "Did you go to school? No, I did not. I stayed at home.",
+    "resource": "past",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pregunta correcta:",
+        "answer": "Did you go?",
+        "options": [
+          "Did you go?",
+          "Did you went?",
+          "Do you went?"
+        ],
+        "id": "e18-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Negativa correcta:",
+        "answer": "She didn’t work.",
+        "options": [
+          "She didn’t work.",
+          "She didn’t worked.",
+          "She not worked."
+        ],
+        "id": "e18-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Pregunta: «You visited her.»",
+        "answer": "Did you visit her?",
+        "alternatives": [],
+        "id": "e18-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Niega: «He went home.»",
+        "answer": "He did not go home.",
+        "alternatives": [
+          "He didn’t go home."
+        ],
+        "id": "e18-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: you | Did | eat",
+        "answer": "Did you eat?",
+        "id": "e18-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Con WAS/WERE:",
+        "answer": "Were you tired?",
+        "options": [
+          "Were you tired?",
+          "Did you were tired?",
+          "Do you were tired?"
+        ],
+        "id": "e18-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Trabajaste ayer?».",
+        "answer": "Did you work yesterday?",
+        "alternatives": [],
+        "id": "e18-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Tras DID ponemos:",
+        "answer": "verbo base",
+        "options": [
+          "verbo base",
+          "verbo en pasado",
+          "verbo -ing"
+        ],
+        "id": "e18-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Pregunta a un amigo: «¿Fuiste a casa ayer?».",
+        "answer": "Did you go home yesterday?",
+        "transfer": true,
+        "id": "e18-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Jugaste ayer?».",
+          "answer": "Did you play yesterday?",
+          "alternatives": [],
+          "id": "e18-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Estudiaste anoche?».",
+          "answer": "Did you study last night?",
+          "alternatives": [],
+          "id": "e18-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Llamaste ayer?».",
+          "answer": "Did you call yesterday?",
+          "alternatives": [],
+          "id": "e18-adults-0"
+        }
+      ]
+    },
+    "index": 18,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/past-simple",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e19",
+    "unit": "Vida real",
+    "title": "Una misma idea, cinco tiempos",
+    "short": "Integra lo aprendido",
+    "goal": "Combinar presente, capacidad, ahora, futuro y pasado.",
+    "formula": [
+      [
+        "Rutina",
+        "I work every day."
+      ],
+      [
+        "Ahora",
+        "I am working now."
+      ],
+      [
+        "Pasado",
+        "I worked yesterday."
+      ]
+    ],
+    "rule": "Primero decide qué quieres comunicar: estado (BE), capacidad (CAN), rutina (DO en preguntas/negativas), acción en curso (BE + ING), futuro (WILL) o pasado (DID para preguntas/negativas). Después elige el sujeto y completa la frase.",
+    "trap": "No añadas automáticamente DO a todas las preguntas: «Are you ready?», «Can you help?», «Do you work?», «Did you work?».",
+    "words": [
+      [
+        "ready",
+        "preparado/a"
+      ],
+      [
+        "every day",
+        "cada día"
+      ],
+      [
+        "now",
+        "ahora"
+      ],
+      [
+        "tomorrow",
+        "mañana"
+      ],
+      [
+        "yesterday",
+        "ayer"
+      ],
+      [
+        "please",
+        "por favor"
+      ]
+    ],
+    "examples": {
+      "kids": "I can play. I played yesterday. I will play tomorrow.",
+      "teens": "I study every day. I am studying now.",
+      "adults": "I work here. I worked yesterday. I will work tomorrow."
+    },
+    "audio": "I am ready. I can help. I work every day. I am working now. I will help tomorrow. I worked yesterday.",
+    "resource": "questions",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pregunta por un estado:",
+        "answer": "Are you ready?",
+        "options": [
+          "Are you ready?",
+          "Do you ready?",
+          "Did you ready?"
+        ],
+        "id": "e19-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta por capacidad:",
+        "answer": "Can you help?",
+        "options": [
+          "Can you help?",
+          "Do you can help?",
+          "Are you can help?"
+        ],
+        "id": "e19-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Trabajas aquí?».",
+        "answer": "Do you work here?",
+        "alternatives": [],
+        "id": "e19-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Estás trabajando ahora?».",
+        "answer": "Are you working now?",
+        "alternatives": [],
+        "id": "e19-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: yesterday | I | worked",
+        "answer": "I worked yesterday.",
+        "id": "e19-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta en pasado:",
+        "answer": "Did you work yesterday?",
+        "options": [
+          "Did you work yesterday?",
+          "Do you worked yesterday?",
+          "Did you worked yesterday?"
+        ],
+        "id": "e19-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Trabajaré mañana».",
+        "answer": "I will work tomorrow.",
+        "alternatives": [],
+        "id": "e19-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Negación de he en presente:",
+        "answer": "He doesn’t work.",
+        "options": [
+          "He doesn’t work.",
+          "He don’t works.",
+          "He isn’t work."
+        ],
+        "id": "e19-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Combina tres estructuras: «Estoy preparado. Puedo ayudar. Trabajaré mañana».",
+        "answer": "I am ready. I can help. I will work tomorrow.",
+        "transfer": true,
+        "id": "e19-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Puedo jugar mañana».",
+          "answer": "I can play tomorrow.",
+          "alternatives": [],
+          "id": "e19-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Estudio ahora».",
+          "answer": "I am studying now.",
+          "alternatives": [],
+          "id": "e19-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «Trabajé ayer y trabajaré mañana».",
+          "answer": "I worked yesterday and I will work tomorrow.",
+          "alternatives": [],
+          "id": "e19-adults-0"
+        }
+      ]
+    },
+    "index": 19,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  },
+  {
+    "id": "e20",
+    "unit": "Vida real",
+    "title": "Reto final · conversación útil",
+    "short": "Habla, entiende, pregunta",
+    "goal": "Responder en inglés con estructuras que ya sabes.",
+    "formula": [
+      [
+        "Presentarte",
+        "I am Alex."
+      ],
+      [
+        "Pedir ayuda",
+        "Can you repeat that?"
+      ],
+      [
+        "Conversar",
+        "Where do you work?"
+      ]
+    ],
+    "rule": "Construye una microconversación útil. No se trata de memorizar listas de palabras: usa las estructuras para dar información real, pedir aclaraciones y hablar de antes, ahora y después.",
+    "trap": "Si dudas, localiza el verbo que manda: BE, CAN, DO/DOES, WILL o DID.",
+    "words": [
+      [
+        "repeat",
+        "repetir"
+      ],
+      [
+        "understand",
+        "entender"
+      ],
+      [
+        "need",
+        "necesitar"
+      ],
+      [
+        "today",
+        "hoy"
+      ],
+      [
+        "tomorrow",
+        "mañana"
+      ],
+      [
+        "yesterday",
+        "ayer"
+      ]
+    ],
+    "examples": {
+      "kids": "Can you help me? Yes, I can.",
+      "teens": "Where do you study? I study in Madrid.",
+      "adults": "Could you repeat that? I am learning English."
+    },
+    "audio": "Hello! I am learning English. I can understand you. Can you speak slowly, please? Thank you!",
+    "resource": "questions",
+    "q": [
+      {
+        "type": "choice",
+        "prompt": "Pedir que repitan algo:",
+        "answer": "Can you repeat that, please?",
+        "options": [
+          "Can you repeat that, please?",
+          "Do you repeat that, please?",
+          "You repeat that?"
+        ],
+        "id": "e20-q1"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta por trabajo habitual:",
+        "answer": "Where do you work?",
+        "options": [
+          "Where do you work?",
+          "Where are you work?",
+          "Where did you works?"
+        ],
+        "id": "e20-q2"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «No entiendo».",
+        "answer": "I do not understand.",
+        "alternatives": [
+          "I don’t understand."
+        ],
+        "id": "e20-q3"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «Estoy aprendiendo inglés».",
+        "answer": "I am learning English.",
+        "alternatives": [],
+        "id": "e20-q4"
+      },
+      {
+        "type": "order",
+        "prompt": "Ordena: slowly | speak | Please",
+        "answer": "Please speak slowly.",
+        "id": "e20-q5"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta en pasado:",
+        "answer": "Did you study yesterday?",
+        "options": [
+          "Did you study yesterday?",
+          "Do you studied yesterday?",
+          "Did you studied yesterday?"
+        ],
+        "id": "e20-q6"
+      },
+      {
+        "type": "write",
+        "prompt": "Traduce: «¿Puedes ayudarme mañana?».",
+        "answer": "Can you help me tomorrow?",
+        "alternatives": [],
+        "id": "e20-q7"
+      },
+      {
+        "type": "choice",
+        "prompt": "Pregunta sobre el futuro:",
+        "answer": "Will you come tomorrow?",
+        "options": [
+          "Will you come tomorrow?",
+          "Do you will come tomorrow?",
+          "Will you coming tomorrow?"
+        ],
+        "id": "e20-q8"
+      },
+      {
+        "type": "write",
+        "prompt": "Eres un viajero. Pregunta: «¿Tienes un billete? ¿Puedes ayudarme?».",
+        "answer": "Do you have a ticket? Can you help me?",
+        "transfer": true,
+        "id": "e20-q9"
+      }
+    ],
+    "aged": {
+      "kids": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Puedes jugar mañana?».",
+          "answer": "Can you play tomorrow?",
+          "alternatives": [],
+          "id": "e20-kids-0"
+        }
+      ],
+      "teens": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Dónde estudias?».",
+          "answer": "Where do you study?",
+          "alternatives": [],
+          "id": "e20-teens-0"
+        }
+      ],
+      "adults": [
+        {
+          "type": "write",
+          "prompt": "Traduce: «¿Puedes hablar más despacio?».",
+          "answer": "Can you speak more slowly?",
+          "alternatives": [],
+          "id": "e20-adults-0"
+        }
+      ]
+    },
+    "index": 20,
+    "resourceUrl": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+    "kidsUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-videos",
+    "chantUrl": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-chants"
+  }
+]

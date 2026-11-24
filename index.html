@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#122b56">
+<meta name="description" content="Teseracto English: aprende inglés construyendo estructuras útiles, sesión a sesión. Programa original de Academia Teseracto.">
+<title>Teseracto English · Inglés que se construye</title>
+<link rel="icon" href="assets/favicon.ico">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="styles.css">
+<script defer src="data/lessons.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#app">Ir al contenido principal</a>
+<div class="app-shell">
+  <header class="site-header">
+    <div class="head-inner">
+      <button class="brand" data-action="go" data-view="home" aria-label="Teseracto English, ir al inicio">
+        <img src="assets/icon-192.png" alt="" width="40" height="40">
+        <span><strong>TESERACTO <b>ENGLISH</b></strong><small>Inglés que se construye</small></span>
+      </button>
+      <nav id="nav" aria-label="Navegación principal" class="main-nav">
+        <button data-action="go" data-view="home">Inicio</button>
+        <button data-action="go" data-view="route">Mi ruta</button>
+        <button data-action="go" data-view="review">Repasar</button>
+        <button data-action="go" data-view="resources">Material</button>
+        <button data-action="go" data-view="teacher">Docente</button>
+      </nav>
+      <button class="profile-pill" data-action="go" data-view="profiles" aria-label="Cambiar de perfil"><span class="avatar" id="avatar-mini">T</span><span id="who-mini">Mi perfil</span></button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+  <footer class="site-footer"><div><span>ACADEMIA TESERACTO · ENGLISH</span><span>Aprender · Comprender · Practicar · Consolidar</span><span>Versión 1.0 · Datos locales en este dispositivo</span></div></footer>
+</div>
+<div id="printRoot" aria-hidden="true"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<input id="fileImport" type="file" accept=".json,application/json" hidden>
+<noscript>Necesitas activar JavaScript para usar los ejercicios interactivos. Las fichas impresas también están disponibles en la carpeta de materiales.</noscript>
+</body>
+</html>
